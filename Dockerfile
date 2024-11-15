@@ -2,7 +2,7 @@
 FROM httpd:latest
 
 # Copy the custom index.html to the Apache server's document root
-RUN echo "hello from unnati" > /usr/local/apache2/htdocs/index.html
+RUN echo "hello from kucl" > /usr/local/apache2/htdocs/index.html
 
 # Expose port 80 to allow HTTP traffic
 EXPOSE 80
